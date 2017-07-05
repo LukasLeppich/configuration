@@ -1,0 +1,28 @@
+// Platzieren Sie Ihre Tastenbindungen in dieser Datei, um die Standardwerte zu überschreiben.
+[{
+        "key": "ctrl+alt+down",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus"
+    }, {
+        "key": "ctrl+.",
+        "command": "python.execInTerminal",
+        "when": "editorTextFocus"
+    }, {
+        "key": "alt+left",
+        "command": "workbench.action.navigateBack"
+    }, {
+        "key": "alt+right",
+        "command": "workbench.action.navigateForward"
+    }, {
+        "key": "ctrl+r",
+        "command": "jupyter.execCurrentCell"
+    }
+    //  {
+    //     "key": "ctrl+w",
+    //     "command": "-extension.vim_ctrl+w"
+    // }
+]

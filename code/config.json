@@ -1,0 +1,22 @@
+{
+    "editor.tabSize": 4,
+    "files.associations": {
+        "*.pl": "prolog"
+    },
+    "git.confirmSync": false,
+    "window.zoomLevel": 0,
+    "vim.leader": ",",
+    "vim.easymotion": true,
+    "vim.overrideCopy": false,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "vim.disableAnnoyingGcMessage": true,
+    "vim.otherModesKeyBindings": [{
+        "before": ["<C-r>"],
+        "command": [{
+            "command": "jupyter.execCurrentCell",
+            "args": []
+        }]
+    }]
+}
