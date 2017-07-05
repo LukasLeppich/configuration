@@ -4,6 +4,8 @@ cd "$parent_path"
 
 echo "START zsh shell install"
 
+sudo pacman -S zsh
+
 echo "-- Clone config repository"
 git clone --recursive https://github.com/lukasleppich/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
