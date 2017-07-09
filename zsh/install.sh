@@ -8,6 +8,9 @@ sudo pacman -S zsh
 
 echo "-- Clone config repository"
 git clone --recursive https://github.com/lukasleppich/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+cd "${ZDOTDIR:-$HOME}/.zprezto"
+git pull origin master
+cd "$parent_path"
 
 
 echo "-- Link config files"
